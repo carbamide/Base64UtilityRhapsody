@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = AppDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {decodeAction = id; encodeAction = id; resetTextViews = id; showAbout = id; }; 
+            CLASS = Base64Object; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                decodeButton = id; 
+                decodeTextView = id; 
+                delegate = id; 
+                encodeButton = id; 
+                encodeTextView = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {showHelp = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
